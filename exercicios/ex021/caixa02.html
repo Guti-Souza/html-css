@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+
+        }
+        header{
+            width: auto;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(143, 142, 142);
+            padding: 10px;
+            margin: 0px;
+            box-shadow: 5px 5px 13px 5px rgba(0, 0, 0, 0.425);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            
+        }
+        nav > a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: 4px 4px 9px 0px black;
+            
+        }
+        article{
+            background-color: lightgray;
+            margin: 5px;
+            box-shadow: 5px 5px 13px 5px rgba(0, 0, 0, 0.281);
+        }
+        article > aside{
+            background-color: rgb(107, 102, 102);
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+
+        }
+
+        #assuntos{
+            text-align: center; 
+            margin: 0px;
+            padding: auto;
+            display: inline;
+        }
+        section > p {
+           border: 1px solid black;
+           margin: 20px;
+           padding: 1px;
+        }
+
+        section > p:hover{
+            background-color: rgb(180, 180, 180);
+            color: rgb(0, 0, 0);
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Tecnologia</p>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque amet est rem necessitatibus accusamus, culpa iste rerum praesentium. Nulla aliquid inventore aperiam officia quos reprehenderit consequatur eaque, numquam neque.</p>
+                <aside>
+                    <p>Artigo escrito por Carlos Augusto</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>

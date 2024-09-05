@@ -1,0 +1,18 @@
+@charset "UTF-8";
+h1 {
+    color: #053601;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+
+   body {
+      background-image:linear-gradient(to top, #6A20F3, #8D21E9 , #E632AF, #E94375 65%, #F8CE46);
+      background-attachment: fixed;
+   }
+  
+   p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+   font-style: italic;
+  text-decoration: underline;
+   }
