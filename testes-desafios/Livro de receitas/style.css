@@ -41,6 +41,13 @@ main{
 
 }
 
+div:hover {
+    text-decoration: underline;
+    padding: 10px;
+    border: 10px solid  rgb(253, 140, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 div:hover > p {
     display: block;
     color: white;
