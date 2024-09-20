@@ -52,6 +52,10 @@ footer{
     padding: 10px;
 }
 
+.paragrafo{
+    font-size: 1.5em;
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -59,24 +63,28 @@ section{
     padding-left: 30px;
     font-family: var(--fonte2);
     color: black;
-    font-size: 4.2vw;
+    font-size: 3.5vw;
+   text-align: justify;
 }
-
+section > p {
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
 }
 
 section.imagem1 > p {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.445);
     border-radius: 10px;
     display: inline-block;
 }
 
 section.imagem2 > p {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.349);
     border-radius: 10px;
     display: inline-block;
+    
 }
 
 section.imagem1{
@@ -87,7 +95,7 @@ section.imagem1{
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
-
+    box-shadow: 2px 2px 0px black;
 }
 
 section.imagem2{
@@ -98,7 +106,7 @@ section.imagem2{
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
-
+    box-shadow: 2px 2px 0px black;
 
 }
 
