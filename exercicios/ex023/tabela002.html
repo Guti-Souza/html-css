@@ -27,6 +27,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -35,9 +36,15 @@
         }
 
         thead {
-            background-color: gray;
+            background-color: rgb(41, 40, 40);
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(41, 40, 40) ;
+        } /* Utilizado para fazer o cabeçalho seguir a tabela até o final. Não esta funcionando perfeitamente em todos os navegadores*/
 
         tbody > tr:nth-child(odd) { /* ou 2n-1 
             serve para colocar o efeito zebrado. odd=impar*/
